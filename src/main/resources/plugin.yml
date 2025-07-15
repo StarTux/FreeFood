@@ -1,0 +1,27 @@
+main: com.cavetale.freefood.FreeFoodPlugin
+name: FreeFood
+
+version: ${version}
+api-version: '1.21'
+
+author: StarTux
+website: https://github.com/StarTux/FreeFood
+description: FreeFood Plugin
+
+depend: []
+softdepend: []
+
+commands:
+
+  freefood:
+    aliases: []
+    description: FreeFood Command
+    permission: freefood.freefood
+    usage: |-
+      /freefood
+
+permissions:
+
+  freefood.freefood:
+    description: Use /freefood
+    default: op
